@@ -22,7 +22,7 @@ func main()  {
 
 
 
-	api := slack.New("xoxb-2604919371328-2593983366417-6DQ6PIOlU1S9osoMBcIQmU1S")
+	api := slack.New("")
 
 	attachment := slack.Attachment{
 		Pretext: "some pretext",
